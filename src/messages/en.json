@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "ML & Full-Stack Developer Portfolio",
+    "description": "Portfolio of an ML and full-stack developer building production-ready web apps, APIs, mobile apps, analytics dashboards, and AI-powered systems."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "hireMe": "Hire Me",
+    "searchPlaceholder": "Search projects..."
+  },
+  "hero": {
+    "headline": "I am Eng Moscab Bashir Hassan, an ML and Full-Stack Developer building modern digital products.",
+    "subheadline": "I design and build ML-powered web and mobile systems with Next.js/React, Python/FastAPI, Node.js, PHP, and SQL databases for real business workflows.",
+    "viewProjects": "View Projects",
+    "contact": "Contact"
+  },
+  "sections": {
+    "about": {
+      "eyebrow": "About",
+      "title": "Practical ML + full-stack engineering for real operations",
+      "description": "I design and build production systems that combine modern frontend, backend APIs, databases, and ML/AI features for real teams and organizations."
+    },
+    "skills": {
+      "eyebrow": "Skills",
+      "title": "Stack used in ML and full-stack delivery",
+      "description": "A practical toolkit across frontend, APIs, databases, cloud, and ML integration."
+    },
+    "projects": {
+      "eyebrow": "Projects",
+      "title": "Selected ML apps and full-stack systems",
+      "description": "Filter by category or search by name, stack, or features."
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "ML + Full-Stack Services for modern products",
+      "description": "From AI-enabled features to complete web/mobile systems with maintainable architecture and clean UX."
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "Client feedback",
+      "description": "Feedback from clients and teams I have worked with."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's build your next system",
+      "description": "Share your requirements and I will respond with a practical plan."
+    }
+  },
+  "about": {
+    "highlights": {
+      "institutionalSystems": "Full-Stack Product Systems",
+      "databaseProcedures": "Database & Stored Procedures",
+      "cleanUiTemplates": "Clean UI + Print-Ready Templates",
+      "aiRepository": "AI/ML Features & Automation"
+    }
+  },
+  "skills": {
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "cloudDevops": "Cloud / DevOps",
+      "toolsUi": "ML / Tools / UI"
+    },
+    "level": {
+      "strong": "Strong",
+      "good": "Good",
+      "learning": "Learning"
+    }
+  },
+  "projects": {
+    "searchLabel": "Project search",
+    "searchPlaceholder": "Search by name or features",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "erp": "ERP",
+      "ai": "AI"
+    },
+    "details": "Details",
+    "demo": "Demo",
+    "github": "GitHub",
+    "comingSoon": "Coming soon",
+    "features": "Key features",
+    "stack": "Stack",
+    "closeModal": "Close project details",
+    "noResults": "No projects match the current filter/search."
+  },
+  "services": {
+    "items": {
+      "institutionalSystems": {
+        "title": "ML-Powered Web Platforms",
+        "description": "Modern web applications that combine production UI, backend APIs, and intelligent features for real business workflows."
+      },
+      "inventoryModules": {
+        "title": "Detection & Classification Tools",
+        "description": "AI/ML features for content detection, classification, scoring, and review workflows integrated into real applications."
+      },
+      "reportsDashboards": {
+        "title": "Analytics Dashboards & Reporting",
+        "description": "Interactive dashboards, operational reports, and decision-support views with clean UX and reliable data pipelines."
+      },
+      "mobileApps": {
+        "title": "Mobile Apps + Backend Integration",
+        "description": "Flutter-based mobile apps connected to secure APIs for field teams, users, and operational workflows."
+      },
+      "apiDevelopment": {
+        "title": "Full-Stack APIs & Backend Systems",
+        "description": "Scalable backend services with Node.js, PHP, or Python/FastAPI including auth, roles, and business logic."
+      },
+      "aiFeatures": {
+        "title": "AI/ML Integration & Automation",
+        "description": "AI-assisted search, metadata extraction, automation flows, and model integration inside production systems."
+      }
+    }
+  },
+  "testimonials": {
+    "placeholderTitle": "Add later",
+    "placeholderBody": "Replace this placeholder with a client testimonial and measurable outcome.",
+    "placeholderName": "Client Name",
+    "placeholderRole": "Institution / Role"
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "placeholders": {
+        "name": "Your full name",
+        "email": "you@example.com",
+        "subject": "Project type (ML app, website, API, dashboard...)",
+        "message": "Tell me about your idea, goals, features, and timeline..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully (mock).",
+      "error": "Something went wrong. Please try again.",
+      "validation": {
+        "required": "This field is required.",
+        "email": "Enter a valid email address.",
+        "messageMin": "Message must be at least 10 characters."
+      }
+    },
+    "quick": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "location": "Location"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick links",
+    "social": "Social",
+    "languageNote": "This site is available in English and Somali.",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "themeToggle": "Toggle theme",
+    "themeLabel": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "languageToggle": "Switch language",
+    "languageLabel": "Language",
+    "mobileNavigation": "Mobile navigation",
+    "viewAll": "View all"
+  }
+}

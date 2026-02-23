@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "Portfolio-ga Horumariye ML & Full-Stack",
+    "description": "Portfolio-ga horumariye ML iyo full-stack ah oo dhisa web apps, APIs, mobile apps, dashboards, iyo nidaamyo AI ku shaqeeya oo diyaar u ah production."
+  },
+  "nav": {
+    "about": "Ku Saabsan",
+    "skills": "Xirfado",
+    "projects": "Mashruucyo",
+    "services": "Adeegyo",
+    "contact": "Xiriir",
+    "hireMe": "I Shaqaaleysi",
+    "searchPlaceholder": "Raadi mashruucyo..."
+  },
+  "hero": {
+    "headline": "Anigu waxaan ahay Eng Moscab Bashir Hassan, horumariye ML iyo Full-Stack ah oo dhisa alaabooyin dijitaal casri ah.",
+    "subheadline": "Waxaan naqshadeeyaa oo dhisaa nidaamyo web iyo mobile ah oo ML ku shaqeeya anigoo adeegsanaya Next.js/React, Python/FastAPI, Node.js, PHP, iyo SQL databases si ay ugu shaqeeyaan workflows ganacsi oo dhab ah.",
+    "viewProjects": "Eeg Mashruucyada",
+    "contact": "Ila soo xiriir"
+  },
+  "sections": {
+    "about": {
+      "eyebrow": "Ku Saabsan",
+      "title": "ML + full-stack engineering wax ku ool ah oo u shaqeeya hawlgal dhab ah",
+      "description": "Waxaan naqshadeeyaa oo dhisaa nidaamyo production ah oo isku dara frontend, backend APIs, databases, iyo astaamo ML/AI ah si ay ugu shaqeeyaan kooxo iyo hay'ado dhab ah."
+    },
+    "skills": {
+      "eyebrow": "Xirfado",
+      "title": "Tech stack-ka lagu geeyo ML iyo full-stack projects",
+      "description": "Qalab wax ku ool ah oo ka kooban frontend, APIs, databases, cloud, iyo ML integration."
+    },
+    "projects": {
+      "eyebrow": "Mashruucyo",
+      "title": "ML apps iyo nidaamyo full-stack ah oo la xushay",
+      "description": "Ku kala shaandhee category ama ku raadi magaca, stack-ka, ama features-ka."
+    },
+    "services": {
+      "eyebrow": "Adeegyo",
+      "title": "Adeegyo ML + Full-Stack ah oo loogu talagalay alaabooyin casri ah",
+      "description": "Laga bilaabo AI-enabled features ilaa web/mobile systems dhammaystiran oo leh architecture la dayactiri karo iyo UX nadiif ah."
+    },
+    "testimonials": {
+      "eyebrow": "Markhaatiyo",
+      "title": "Aragtida macaamiisha",
+      "description": "Qaybta markhaatiyada macaamiisha."
+    },
+    "contact": {
+      "eyebrow": "Xiriir",
+      "title": "Aan dhisno nidaamkaaga xiga",
+      "description": "Soo dir baahidaada, waxaanan kuugu soo jawaabi doonaa qorshe shaqaynaya."
+    }
+  },
+  "about": {
+    "highlights": {
+      "institutionalSystems": "Nidaamyo Full-Stack ah",
+      "databaseProcedures": "Database & Stored Procedures",
+      "cleanUiTemplates": "UI Nadiif ah + Templates Daabacaad u Diyaar ah",
+      "aiRepository": "Astaamo AI/ML & Automation"
+    }
+  },
+  "skills": {
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "cloudDevops": "Cloud / DevOps",
+      "toolsUi": "ML / Tools / UI"
+    },
+    "level": {
+      "strong": "Aad u Fiican",
+      "good": "Fiican",
+      "learning": "Barasho"
+    }
+  },
+  "projects": {
+    "searchLabel": "Raadinta mashruucyada",
+    "searchPlaceholder": "Ku raadi magac ama features",
+    "filters": {
+      "all": "Dhammaan",
+      "web": "Web",
+      "mobile": "Mobile",
+      "erp": "ERP",
+      "ai": "AI"
+    },
+    "details": "Faahfaahin",
+    "demo": "Demo",
+    "github": "GitHub",
+    "comingSoon": "Dhawaan imanaya",
+    "features": "Astaamaha Muhiimka ah",
+    "stack": "Stack",
+    "closeModal": "Xir faahfaahinta mashruuca",
+    "noResults": "Mashruucyo ku habboon shaandhayntan/raadintan lama helin."
+  },
+  "services": {
+    "items": {
+      "institutionalSystems": {
+        "title": "ML-Powered Web Platforms",
+        "description": "Web applications casri ah oo isku dara UI production ah, backend APIs, iyo astaamo caqli leh oo loogu talagalay workflows ganacsi."
+      },
+      "inventoryModules": {
+        "title": "Detection & Classification Tools",
+        "description": "Astaamo AI/ML ah oo loogu talagalay detection, classification, scoring, iyo review workflows gudaha apps-ka."
+      },
+      "reportsDashboards": {
+        "title": "Analytics Dashboards & Reporting",
+        "description": "Dashboards isdhexgal leh, warbixinno hawlgal, iyo decision-support views oo leh UX nadiif ah iyo data pipelines la isku halayn karo."
+      },
+      "mobileApps": {
+        "title": "Mobile Apps + Backend Integration",
+        "description": "Flutter-based mobile apps oo ku xiran APIs ammaan ah si loogu adeego users, staff, iyo workflows hawlgal."
+      },
+      "apiDevelopment": {
+        "title": "Full-Stack APIs & Backend Systems",
+        "description": "Adeegyo backend la miisaami karo oo leh Node.js, PHP, ama Python/FastAPI kana kooban auth, roles, iyo business logic."
+      },
+      "aiFeatures": {
+        "title": "AI/ML Integration & Automation",
+        "description": "AI-assisted search, metadata extraction, automation flows, iyo model integration gudaha systems-ka production."
+      }
+    }
+  },
+  "testimonials": {
+    "placeholderTitle": "Ku dar goor dambe",
+    "placeholderBody": "Beddel placeholder-kan adigoo gelinaya markhaati macmiil iyo natiijo la cabbiri karo.",
+    "placeholderName": "Magaca Macmiilka",
+    "placeholderRole": "Hay'ad / Doorka"
+  },
+  "contact": {
+    "form": {
+      "name": "Magac",
+      "email": "Email",
+      "subject": "Mawduuc",
+      "message": "Farriin",
+      "placeholders": {
+        "name": "Magacaaga oo buuxa",
+        "email": "you@example.com",
+        "subject": "Nooca project-ka (ML app, website, API, dashboard...)",
+        "message": "Faahfaahi fikraddaada, ujeeddooyinka, features-ka, iyo waqtiga aad rabto..."
+      },
+      "submit": "Dir Farriinta",
+      "sending": "La dirayaa...",
+      "success": "Farriinta si guul leh ayaa loo diray (mock).",
+      "error": "Waxbaa khaldamay. Fadlan isku day mar kale.",
+      "validation": {
+        "required": "Qaybtan waa khasab.",
+        "email": "Geli email sax ah.",
+        "messageMin": "Farriintu waa inay noqotaa ugu yaraan 10 xaraf."
+      }
+    },
+    "quick": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "location": "Goobta"
+    }
+  },
+  "footer": {
+    "quickLinks": "Xiriirro Degdeg ah",
+    "social": "Bulsho",
+    "languageNote": "Boggan waxaa lagu heli karaa English iyo Somali.",
+    "copyright": "Xuquuqda way dhowran tahay."
+  },
+  "common": {
+    "openMenu": "Fur menu-ga",
+    "closeMenu": "Xir menu-ga",
+    "themeToggle": "Beddel theme-ka",
+    "themeLabel": "Muuqaal",
+    "themeLight": "Iftiin",
+    "themeDark": "Madow",
+    "languageToggle": "Beddel luqadda",
+    "languageLabel": "Luqad",
+    "mobileNavigation": "Naveegeshinka Mobile-ka",
+    "viewAll": "Eeg dhammaan"
+  }
+}
