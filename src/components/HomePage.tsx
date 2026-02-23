@@ -28,12 +28,40 @@ export function HomePage() {
       <Navbar />
       <main className="relative">
         <Hero />
-        <About />
-        <Skills />
-        <Projects searchQuery={projectSearch} onSearchChange={setProjectSearch} />
-        <Services />
-        <Testimonials />
-        <Contact />
+
+        <div className="relative">
+          <div
+            className="pointer-events-none absolute inset-x-0 top-6 h-[28rem] rounded-[2rem] bg-gradient-to-b from-primary/5 via-cyan-400/5 to-transparent blur-3xl"
+            aria-hidden="true"
+          />
+          <About />
+          <Skills />
+        </div>
+
+        <div className="relative">
+          <div
+            className="pointer-events-none absolute inset-x-4 top-10 h-[36rem] rounded-[2.5rem] border border-primary/10 bg-gradient-to-br from-primary/5 via-transparent to-accent/5"
+            aria-hidden="true"
+          />
+          <Projects searchQuery={projectSearch} onSearchChange={setProjectSearch} />
+        </div>
+
+        <div className="relative">
+          <div
+            className="pointer-events-none absolute inset-x-0 top-4 h-[22rem] bg-gradient-to-b from-amber-200/10 via-primary/5 to-transparent blur-3xl dark:from-amber-300/5"
+            aria-hidden="true"
+          />
+          <Services />
+          <Testimonials />
+        </div>
+
+        <div className="relative">
+          <div
+            className="pointer-events-none absolute inset-x-6 top-8 h-[20rem] rounded-[2rem] border border-border/40 bg-gradient-to-br from-primary/4 via-transparent to-cyan-400/6"
+            aria-hidden="true"
+          />
+          <Contact />
+        </div>
       </main>
       <Footer />
     </div>

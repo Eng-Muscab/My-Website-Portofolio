@@ -17,7 +17,7 @@ export function buttonVariants({
   className?: string;
 } = {}) {
   return cn(
-    "inline-flex items-center justify-center gap-2 rounded-xl font-medium transition-all duration-300 disabled:pointer-events-none disabled:opacity-60 active:scale-[0.99]",
+    "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl font-medium leading-none transition-all duration-300 disabled:pointer-events-none disabled:opacity-60 active:scale-[0.99]",
     "focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background",
     variant === "primary" &&
       "border border-primary/30 bg-gradient-to-r from-primary via-sky-500 to-cyan-400 text-primary-foreground shadow-[0_10px_26px_-14px_rgba(14,165,233,0.65)] hover:-translate-y-0.5 hover:brightness-105 hover:shadow-[0_14px_36px_-16px_rgba(14,165,233,0.75)]",

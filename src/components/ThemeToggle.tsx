@@ -1,6 +1,6 @@
 "use client";
 
-import { Moon, Palette, Sun } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
@@ -27,10 +27,6 @@ export function ThemeToggle() {
       aria-label={t("themeToggle")}
       title={t("themeToggle")}
     >
-      <span className="hidden items-center gap-1.5 rounded-full px-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted-foreground xl:inline-flex">
-        <Palette className="h-3.5 w-3.5" aria-hidden="true" />
-        {t("themeLabel")}
-      </span>
       <button
         type="button"
         onClick={() => setTheme("light")}

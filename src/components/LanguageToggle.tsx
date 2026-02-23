@@ -1,6 +1,5 @@
 "use client";
 
-import { Languages } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 
@@ -46,10 +45,6 @@ export function LanguageToggle() {
       aria-label={t("languageToggle")}
       title={t("languageToggle")}
     >
-      <span className="hidden items-center gap-1.5 rounded-full px-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted-foreground xl:inline-flex">
-        <Languages className="h-3.5 w-3.5" aria-hidden="true" />
-        {t("languageLabel")}
-      </span>
       {(["en", "so"] as const).map((locale) => {
         const active = currentLocale === locale;
 
@@ -60,7 +55,7 @@ export function LanguageToggle() {
             onClick={() => changeLocale(locale)}
             aria-pressed={active}
             className={cn(
-              "inline-flex h-8 min-w-10 items-center justify-center rounded-full px-3 text-xs font-semibold uppercase tracking-[0.14em] transition-all duration-200",
+              "inline-flex h-8 min-w-[2.2rem] items-center justify-center rounded-full px-2.5 text-xs font-semibold uppercase tracking-[0.12em] transition-all duration-200",
               active
                 ? "bg-card text-foreground shadow-sm ring-1 ring-border"
                 : "text-muted-foreground hover:bg-muted/70 hover:text-foreground"
