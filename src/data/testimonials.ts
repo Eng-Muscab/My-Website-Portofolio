@@ -17,8 +17,8 @@ export const testimonials: TestimonialItem[] = [
       so: "Finance"
     },
     organization: {
-      en: "Isfaham Institution",
-      so: "Isfaham Institution"
+      en: "Isfahan Clothes",
+      so: "Isfahan Clothes"
     },
     quote: {
       en: "The system delivery was practical and clear. Our finance work became easier to manage and report.",

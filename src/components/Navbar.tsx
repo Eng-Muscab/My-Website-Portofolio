@@ -1,6 +1,7 @@
 "use client";
 
-import { Menu, Sparkles, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
@@ -14,11 +15,11 @@ import type { Locale } from "@/i18n/config";
 
 export function Navbar() {
   const locale = useLocale() as Locale;
-  const tNav = useTranslations("nav");
   const tCommon = useTranslations("common");
+  const tNav = useTranslations("nav");
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const links = [
+  const desktopLinks = [
     { id: "about", label: tNav("about") },
     { id: "skills", label: tNav("skills") },
     { id: "projects", label: tNav("projects") },
@@ -27,39 +28,45 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 py-3">
+    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="glass-panel flex h-16 items-center gap-2 px-3 sm:px-4">
-          <Link href={`/${locale}`} className="shrink-0">
-            <span className="group inline-flex items-center gap-2 rounded-xl border border-primary/15 bg-card/80 px-3 py-2 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:bg-card">
-              <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-primary/20 via-cyan-400/10 to-accent/20 text-primary ring-1 ring-primary/10">
-                <Sparkles className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-6" aria-hidden="true" />
+        <div className="flex h-16 items-center gap-2 lg:h-[72px]">
+          <Link href={`/${locale}`} className="group shrink-0">
+            <span className="inline-flex items-center gap-2 rounded-xl px-1.5 py-1">
+              <span className="relative inline-flex h-8 w-8 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-primary/20 via-cyan-400/10 to-accent/20 ring-1 ring-primary/15">
+                <Image
+                  src={profile.avatarImage || "/avatar-placeholder.svg"}
+                  alt={`${profile.name} logo`}
+                  fill
+                  sizes="32px"
+                  className="object-cover"
+                />
               </span>
-              <span className="text-sm font-semibold tracking-tight text-foreground">{profile.brandName}</span>
             </span>
           </Link>
 
-          <nav
-            className="hidden min-w-0 items-center gap-1 rounded-xl border border-border/70 bg-background/60 p-1 xl:flex"
-            aria-label="Primary navigation"
-          >
-            {links.map((link) => (
+          <nav className="hidden min-w-0 items-center gap-4 xl:flex" aria-label="Primary navigation">
+            {desktopLinks.map((link) => (
               <Link
                 key={link.id}
                 href={`/${locale}#${link.id}`}
-                className="shrink-0 whitespace-nowrap rounded-lg px-2.5 py-2 text-sm font-medium text-muted-foreground transition-all duration-200 hover:-translate-y-0.5 hover:bg-card hover:text-foreground"
+                className="shrink-0 whitespace-nowrap rounded-md px-1 py-1 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
               >
                 {link.label}
               </Link>
             ))}
           </nav>
 
-          <div className="ml-auto hidden shrink-0 items-center gap-1.5 xl:flex">
+          <div className="ml-auto hidden shrink-0 items-center gap-2 xl:flex">
             <div className="glass-panel flex items-center gap-1 px-1.5 py-1">
               <ThemeToggle />
               <LanguageToggle />
             </div>
-            <Link href={`/${locale}#contact`} className={buttonVariants({ size: "sm", className: "shrink-0 px-3 text-sm" })}>
+
+            <Link
+              href={`/${locale}#contact`}
+              className={buttonVariants({ size: "sm", className: "h-10 rounded-xl px-4 text-sm" })}
+            >
               {tNav("hireMe")}
             </Link>
           </div>
