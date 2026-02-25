@@ -80,8 +80,8 @@ export const profile = {
     {
       key: "databaseProcedures",
       description: {
-        en: "SQL schema design, query optimization, stored procedures, and report logic.",
-        so: "Naqshad SQL schema, query optimization, stored procedures, iyo report logic."
+        en: "Prisma database schema design, SQL query optimization, migrations, and report logic.",
+        so: "Naqshad Prisma database schema, SQL query optimization, migrations, iyo report logic."
       }
     },
     {

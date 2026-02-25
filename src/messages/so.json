@@ -53,7 +53,7 @@
   "about": {
     "highlights": {
       "institutionalSystems": "Nidaamyo Full-Stack ah",
-      "databaseProcedures": "Database & Stored Procedures",
+      "databaseProcedures": "Prisma Database & SQL",
       "cleanUiTemplates": "UI Nadiif ah + Templates Daabacaad u Diyaar ah",
       "aiRepository": "Astaamo AI/ML & Automation"
     }
@@ -106,8 +106,8 @@
         "description": "Dashboards isdhexgal leh, warbixinno hawlgal, iyo decision-support views oo leh UX nadiif ah iyo data pipelines la isku halayn karo."
       },
       "mobileApps": {
-        "title": "Mobile Apps + Backend Integration",
-        "description": "Flutter-based mobile apps oo ku xiran APIs ammaan ah si loogu adeego users, staff, iyo workflows hawlgal."
+        "title": "Flutter App Development",
+        "description": "Flutter mobile apps oo leh API/backend integration ammaan ah si loogu adeego users, staff, iyo workflows hawlgal."
       },
       "apiDevelopment": {
         "title": "Full-Stack APIs & Backend Systems",

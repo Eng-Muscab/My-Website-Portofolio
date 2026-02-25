@@ -53,7 +53,7 @@
   "about": {
     "highlights": {
       "institutionalSystems": "Full-Stack Product Systems",
-      "databaseProcedures": "Database & Stored Procedures",
+      "databaseProcedures": "Prisma Database & SQL",
       "cleanUiTemplates": "Clean UI + Print-Ready Templates",
       "aiRepository": "AI/ML Features & Automation"
     }
@@ -106,8 +106,8 @@
         "description": "Interactive dashboards, operational reports, and decision-support views with clean UX and reliable data pipelines."
       },
       "mobileApps": {
-        "title": "Mobile Apps + Backend Integration",
-        "description": "Flutter-based mobile apps connected to secure APIs for field teams, users, and operational workflows."
+        "title": "Flutter App Development",
+        "description": "Flutter mobile apps with secure API/backend integration for field teams, users, and operational workflows."
       },
       "apiDevelopment": {
         "title": "Full-Stack APIs & Backend Systems",
