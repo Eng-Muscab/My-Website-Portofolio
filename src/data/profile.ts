@@ -61,7 +61,12 @@ export const profile = {
     {
       key: "clients",
       label: { en: "Clients Served", so: "Macaamiil La Adeegay" },
-      value: "8+"
+      value: "150+"
+    },
+    {
+      key: "experience",
+      label: { en: "Years Experience", so: "Sano Khibrad" },
+      value: "1+ Year"
     }
   ] satisfies StatItem[],
   highlights: [

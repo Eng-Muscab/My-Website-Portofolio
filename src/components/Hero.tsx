@@ -33,17 +33,7 @@ export function Hero() {
   const testimonialPrimary = testimonials[0];
   const testimonialSecondary = testimonials[1] ?? testimonials[0];
 
-  const heroStats = [
-    ...profile.stats.slice(0, 3),
-    {
-      key: "availability",
-      value: "24/7",
-      label: {
-        en: "Available for new projects",
-        so: "Diyaar u ah mashruucyo cusub"
-      }
-    }
-  ];
+  const heroStats = profile.stats.slice(0, 4);
 
   const truncateQuote = (text: string, max = 86) =>
     text.length > max ? `${text.slice(0, Math.max(0, max - 1)).trimEnd()}...` : text;

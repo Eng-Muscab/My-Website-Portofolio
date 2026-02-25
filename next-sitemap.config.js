@@ -1,10 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://example.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://eng-moscab-portofolio.vercel.app",
   generateRobotsTxt: true,
   alternateRefs: [
-    { href: "https://example.com/en", hreflang: "en" },
-    { href: "https://example.com/so", hreflang: "so" }
+    { href: "https://eng-moscab-portofolio.vercel.app/en", hreflang: "en" },
+    { href: "https://eng-moscab-portofolio.vercel.app/so", hreflang: "so" }
   ],
   transform: async (config, path) => ({
     loc: path,
@@ -14,3 +14,4 @@ module.exports = {
     alternateRefs: config.alternateRefs ?? []
   })
 };
+
